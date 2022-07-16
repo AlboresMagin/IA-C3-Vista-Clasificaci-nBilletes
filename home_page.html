@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Red neuronal</title>
+        <link href="https://fonts.googleapis.com/css?family=Grandstander&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mallanna&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesHomePage.css">
+    </head>
+    <header>
+        <div class="e2_3">
+            <span class="e2_7">Red neuronal para la identificación de billetes</span>
+        </div>
+    </header>
+    <body>
+        <div class="e2_4">
+            <span class="e2_13">Subir una imagen</span>
+            <input type="file" class="e2_8">
+            <input type="file" class="e2_8" accept="image/*" capture="camera">
+            <span class="e2_14">Tomar una fotografia</span>
+            <video id="video" class="e2_9" playsinline autoplay></video>
+            <button id="snap" class="btnPhoto">Capture</button>
+            <canvas id="canvas" width="640" height="480"></canvas>
+        </div>
+        <button class="e2_10">Validar datos</button>
+        <div class="e2_12"></div>
+    </body>
+    <footer>
+        <div class="piePagina">
+            <span class="e2_18">Integrantes del equipo</span>
+            <span class="e2_19">201271. Magin Guillermo Albores Lopez</span>
+            <span class="e2_20">193236. Manuel Ballinas Kramsky</span>
+            <span class="e2_21">201259. Veronica Liseth Martinez Toledo</span>
+            <span class="e2_22">193218. Gerardo Vázquez Román</span>
+        </div>
+    </footer>
+    <script src="photo.js"></script>
+</html>
